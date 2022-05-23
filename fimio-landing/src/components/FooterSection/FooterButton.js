@@ -14,7 +14,9 @@ const FooterButton = () => {
 			textAlign: "center",
 			color: "white",
 			cursor: "pointer"
-		}} href={`https://twitter.com/fimioxyz`}>@fimioxyz</a>
+		}} href={`https://twitter.com/fimioxyz`}
+		target='_blank'
+		>@fimioxyz</a>
 	);
 };
 

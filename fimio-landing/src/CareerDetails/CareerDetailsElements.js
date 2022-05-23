@@ -35,7 +35,6 @@ export const BackIcon = styled.img`
 `
 
 export const Title = styled.h1`
-    font-family: "BasicSans-Bold";
     color: #000;
     font-size: 24px;
     line-height: 36px;
@@ -92,7 +91,6 @@ export const SecondSubtitle = styled.p`
 `
 
 export const Header = styled.p`
-    font-family: "BasicSans-SemiBold";
     font-size: 16px;
     line-height: 24px; 
     font-weight: 600;
