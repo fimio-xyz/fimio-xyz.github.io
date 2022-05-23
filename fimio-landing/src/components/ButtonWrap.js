@@ -6,5 +6,6 @@ export const ButtonWrap = styled(Link)`
     justify-content: center;
     align-items: center;
     white-space: nowrap;
-    width: 100vw;
+  	font-size: 2em;
+  	cursor: pointer;
 `

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import NavBar from '../../components/Navbar';
 import Sidebar from "../../components/Sidebar";
+import HeroSection from "../../components/HeroSection";
 
 const Home = ({isOpen, toggle }) => {
 	const [isDesktop, setIsDesktop] = useState(false);
@@ -54,6 +55,7 @@ const Home = ({isOpen, toggle }) => {
 		<>
 			<Sidebar isOpen={isOpen} toggle={toggle}/>
 			<NavBar isOpen={isOpen} toggle={toggle} />
+			<HeroSection/>
 		</>
 	);
 };
