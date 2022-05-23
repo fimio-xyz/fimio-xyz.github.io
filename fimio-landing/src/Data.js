@@ -61,7 +61,7 @@ export const job1 = {
 export const job2 = {
 	background_image_id: "background_image_3",
 	text_wrapper_id: "text_wrapper_2",
-	job_id: '3',
+	job_id: '2',
 	title: "Blockchain Engineer",
 	first_subtitle: "Full-Time",
 	second_subtitle: "Remote",
@@ -100,7 +100,7 @@ export const job2 = {
 export const job3 = {
 	background_image_id: "background_image_4",
 	text_wrapper_id: "text_wrapper_3",
-	job_id: '4',
+	job_id: '3',
 	title: "Backend Engineer",
 	first_subtitle: "Full-Time",
 	second_subtitle: "Remote",
