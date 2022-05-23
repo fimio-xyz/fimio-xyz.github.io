@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const NavbarTwitterButtonS = styled.a`
+export const NavbarButtonS = styled.a`
     text-decoration: none;
     align-self: flex-end;
     margin-left: 50px;
@@ -17,7 +17,7 @@ export const NavbarTwitterButtonS = styled.a`
     }
 `;
 
-export const NavBarTwitterButtonSideBar = styled.a`
+export const NavbarButtonSideBar = styled.a`
     text-decoration: none;
     align-self: flex-end;
     margin-left: 50px;

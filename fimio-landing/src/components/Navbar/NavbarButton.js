@@ -1,14 +1,14 @@
 import React from "react";
-import { NavbarTwitterButtonS } from "./NavbarTwitterButtonStyle";
+import { NavbarButtonS } from "./NavbarButtonStyle";
 
 const NavbarTwitterButton = () => {
 	return (
-		<NavbarTwitterButtonS
+		<NavbarButtonS
 			href={`https://twitter.com/fimioxyz`}
 			target='_blank'
 		>
 			Follow
-		</NavbarTwitterButtonS>
+		</NavbarButtonS>
 	);
 };
 
