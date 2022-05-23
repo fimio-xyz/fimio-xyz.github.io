@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 
-// import mobileHeroLine1URL from '../../images/mobile-hero-line1.svg'
+import mobileHeroLine1URL from '../../images/line1_heading_m.svg'
 import desktopHeroLine1URL from '../../images/line1_heading.svg'
-// import mobileHeroLine2URL from '../../images/mobile-hero-line2.svg'
+import mobileHeroLine2URL from '../../images/line2_heading_m.svg'
 import desktopHeroLine2URL from '../../images/line2_heading.svg'
 import {ButtonWrap} from '../ButtonWrap'
 import {BsArrowDownCircle} from 'react-icons/bs'
@@ -43,8 +43,8 @@ const HeroSection = () => {
 		<HeroContainer id="home">
 			<BackgroundImage>
 				<TextWrapper>
-					{/*<BlackoutImageTop className="show-sm" src={mobileHeroLine1URL}/>*/}
-					{/*<BlackoutImageBottom className="show-sm" src={mobileHeroLine2URL}/>*/}
+					<BlackoutImageTop className="show-sm" src={mobileHeroLine1URL}/>
+					<BlackoutImageBottom className="show-sm" src={mobileHeroLine2URL}/>
 					<BlackoutImageTop className="hidden-sm" src={desktopHeroLine1URL}/>
 					<BlackoutImageBottom className="hidden-sm" src={desktopHeroLine2URL}/>
 					<BottomText className="bottom--coming-soon">Coming soon</BottomText>

@@ -5,11 +5,10 @@ export const HeroContainer = styled.div`
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     margin-top: 5%;
 
     @media screen and (max-width: 800px) {
-        margin-top: 10%;
+        margin-top: 15%;
     }
 `;
 
@@ -57,7 +56,7 @@ export const BottomText = styled.h1`
 
     @media screen and (max-width: 800px) {
         padding-top: 0;
-        margin-top: -30px;
+        margin-top: 10px;
     }
 `
 
