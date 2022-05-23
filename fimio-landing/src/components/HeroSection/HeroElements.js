@@ -5,7 +5,7 @@ export const HeroContainer = styled.div`
     height: 100vh;
     display: flex;
     flex-direction: column;
-    margin-top: 5%;
+    margin-top: 15%;
 
     @media screen and (max-width: 800px) {
         margin-top: 15%;
@@ -31,7 +31,7 @@ export const TextWrapper = styled.div`
     margin-right: 5%;
 
     @media screen and (max-width: 800px) {
-        //margin-top: 10%;
+        margin-top: 10%;
     }
 `
 
@@ -42,7 +42,7 @@ export const BlackoutImageTop = styled.img`
 
 export const BlackoutImageBottom = styled.img`
     max-height: 35vh;
-    align-self: flex-end;
+    align-self: flex-start;
 `;
 
 
