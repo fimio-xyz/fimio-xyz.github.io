@@ -1,6 +1,6 @@
 {
   "name": "fimio-landing",
-  "homepage": "https://fimio-xyz.github.io/",
+  "homepage": "/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -44,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "sass": "^1.52.1"
   }
 }
