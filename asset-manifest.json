@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.22ce0006.css",
-    "main.js": "/static/js/main.0a8131a5.js",
-    "static/js/787.8777d42b.chunk.js": "/static/js/787.8777d42b.chunk.js",
-    "static/media/line2_heading_m.svg": "/static/media/line2_heading_m.bfb81b636afb3c780f782958572fb9bf.svg",
-    "static/media/line2_heading.svg": "/static/media/line2_heading.eeff1d730d074f3c069cbce29743152a.svg",
-    "static/media/line1_heading_m.svg": "/static/media/line1_heading_m.3fb42a6566575050d528a96f2d9db917.svg",
-    "static/media/line1_heading.svg": "/static/media/line1_heading.885180f06334f8a37a51eea74cd3d323.svg",
-    "index.html": "/index.html",
-    "static/media/footer.svg": "/static/media/footer.e2b78926ff26912049c59c5e2028c771.svg",
-    "main.22ce0006.css.map": "/static/css/main.22ce0006.css.map",
-    "main.0a8131a5.js.map": "/static/js/main.0a8131a5.js.map",
-    "787.8777d42b.chunk.js.map": "/static/js/787.8777d42b.chunk.js.map"
+    "main.css": "/fimio-xyz.github.io/static/css/main.22ce0006.css",
+    "main.js": "/fimio-xyz.github.io/static/js/main.c5196df3.js",
+    "static/js/787.8777d42b.chunk.js": "/fimio-xyz.github.io/static/js/787.8777d42b.chunk.js",
+    "static/media/line2_heading_m.svg": "/fimio-xyz.github.io/static/media/line2_heading_m.bfb81b636afb3c780f782958572fb9bf.svg",
+    "static/media/line2_heading.svg": "/fimio-xyz.github.io/static/media/line2_heading.eeff1d730d074f3c069cbce29743152a.svg",
+    "static/media/line1_heading_m.svg": "/fimio-xyz.github.io/static/media/line1_heading_m.3fb42a6566575050d528a96f2d9db917.svg",
+    "static/media/line1_heading.svg": "/fimio-xyz.github.io/static/media/line1_heading.885180f06334f8a37a51eea74cd3d323.svg",
+    "index.html": "/fimio-xyz.github.io/index.html",
+    "static/media/footer.svg": "/fimio-xyz.github.io/static/media/footer.e2b78926ff26912049c59c5e2028c771.svg",
+    "main.22ce0006.css.map": "/fimio-xyz.github.io/static/css/main.22ce0006.css.map",
+    "main.c5196df3.js.map": "/fimio-xyz.github.io/static/js/main.c5196df3.js.map",
+    "787.8777d42b.chunk.js.map": "/fimio-xyz.github.io/static/js/787.8777d42b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.22ce0006.css",
-    "static/js/main.0a8131a5.js"
+    "static/js/main.c5196df3.js"
   ]
 }
