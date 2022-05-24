@@ -4,7 +4,13 @@ import {
 	TextWrapper, Title,
 	FirstSubtitle, SecondSubtitle } from './CareerCellElements';
 
-const CareerCell = ({background_image_id, text_wrapper_id, job_id, title, first_subtitle, second_subtitle, light_background, about, youWill, youHave, evenBetter, tech, howToApply}) => {
+const CareerCell = ({background_image_id,
+						text_wrapper_id,
+						job_id, title,
+						first_subtitle,
+						second_subtitle,
+						light_background,
+						about, youWill, youHave, evenBetter, tech, howToApply}) => {
 	const navigate = useNavigate()
 
 	function goToPage(job_id) {

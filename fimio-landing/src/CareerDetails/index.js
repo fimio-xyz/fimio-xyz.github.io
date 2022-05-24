@@ -1,12 +1,14 @@
 import React, { useEffect } from 'react'
 import { useNavigate } from 'react-router'
-import { BackIcon,
+import {
+	BackIcon,
 	Container,
 	ContentWrapper,
 	Title, FirstSubtitle,
 	SecondSubtitle, Header,
 	Paragraph, ParagraphList,
-	SubtitleWrapper, JobLink } from './CareerDetailsElements'
+	SubtitleWrapper, JobLink, Button
+} from './CareerDetailsElements'
 
 import Navbar from '../components/Navbar'
 import {BsArrowLeftCircle} from 'react-icons/bs'
@@ -16,7 +18,9 @@ import Sidebar from '../components/Sidebar';
 import {ButtonWrap} from "../components/ButtonWrap";
 
 
-function CareerDetailsPage({isOpen, toggle, job_id, title, first_subtitle, second_subtitle, light_background, about, youWill, youHave, evenBetter, tech, howToApply}) {
+function CareerDetailsPage({isOpen, toggle, job_id, title, first_subtitle,
+							   second_subtitle, light_background, about, youWill,
+							   youHave, evenBetter, tech, howToApply, applyForm}) {
 	const navigate = useNavigate()
 	let email = "founders@fimio.xyz";
 
@@ -52,14 +56,13 @@ function CareerDetailsPage({isOpen, toggle, job_id, title, first_subtitle, secon
 					<Paragraph>{about}</Paragraph>
 					<Header>You Will</Header>
 					<ParagraphList>{youWill}</ParagraphList>
-					<Header>You Have</Header>
+					<Header>You may be a fit if you have</Header>
 					<ParagraphList>{youHave}</ParagraphList>
-					<Header>Even Better</Header>
-					<ParagraphList>{evenBetter}</ParagraphList>
-					{techUse}
 					<Header>How To Apply</Header>
 					<Paragraph>{howToApply}</Paragraph>
-					<JobLink href={`mailto:${email}?subject=${encodeURIComponent(title) || ''}`}>${email}</JobLink>
+					<a href={applyForm} target='_blank'>
+						<Button primary>Apply</Button>
+					</a>
 				</ContentWrapper>
 				<FooterContainer>
 					<FooterButtonTwitter/>

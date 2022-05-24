@@ -155,3 +155,16 @@ export const JobLink = styled.a`
         margin-right: 20px;
     }
 `
+
+export const Button = styled.button`
+  /* Adapt the colors based on primary prop */
+  background: ${props => props.primary ? "#0B3EDF" : "white"};
+  color: ${props => props.primary ? "white" : "#0B3EDF"};
+	
+  font-size: 1em;
+  margin: 1em;
+  padding: 0.25em 1em .35em 1em;
+  border: 2px solid #0B3EDF;
+  border-radius: 3px;
+  cursor:pointer;
+`;
