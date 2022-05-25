@@ -3,7 +3,7 @@ import { NavbarButtonS } from "./NavbarButtonStyle";
 
 const NavbarBlogButton = () => {
 	return (
-		<NavbarButtonS href={`https://blog.tiptop.xyz`}>Blog</NavbarButtonS>
+		<NavbarButtonS href={`https://mirror.xyz/fimio.eth.`} target='_blank'>Blog</NavbarButtonS>
 	);
 };
 
