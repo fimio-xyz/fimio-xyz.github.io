@@ -29,6 +29,8 @@ export const BackgroundImageBehindGrid = styled.div`
     position: absolute;
     margin-left: -10px;
     z-index: -2;
+  	width:100%;
+  	height: 90px;
     background: ${( {light_background} ) => (light_background ? '#F2F2F2' : 'transparent' )}; 
 `
 

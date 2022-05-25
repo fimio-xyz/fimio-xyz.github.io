@@ -5,7 +5,7 @@ import { CareerContainer, InfoWrapper,
 	Header, ImgUpArrow,
 	BackgroundImage, BackgroundImageBehindGrid } from './CareerElements';
 import CareerCell from './CareerCell';
-import { job1, job2, job3 } from '../../Data';
+import { jobs } from '../../Data';
 
 const CareerSection = () => {
 	const numJobs = 3;
@@ -30,33 +30,20 @@ const CareerSection = () => {
 		window.addEventListener('resize', handleResize)
 	}, []);
 
-	useLayoutEffect(() => {
-		let elem = document.getElementById("text_wrapper_2").getBoundingClientRect()
-		const width = elem.width + 20;
-		const height = elem.height;
-		setDimensions({ height: height, width: width })
-		for (let index = 0; index < numJobs; index++) {
-			let gridName = index + 1
-			let backgroundElem = document.getElementById("grid" + gridName.toString());
-			backgroundElem.style.width = width.toString() + 'px';
-			backgroundElem.style.height = height.toString() + 'px';
-		}
-	}, []);
-
 	return (
 		<>
 			<CareerContainer id="careers">
 				<BackgroundImage>
 					<InfoWrapper>
 						<Header>Careers</Header>
-						<BackgroundImageBehindGrid id="grid1" light_background={false}/>
-						<CareerCell {...job1} />
-
-						<BackgroundImageBehindGrid id="grid2" light_background={true}/>
-						<CareerCell {...job2} />
-
-						<BackgroundImageBehindGrid id="grid3" light_background={false}/>
-						<CareerCell {...job3} />
+						{
+							jobs.map(job => (<div key={job.job_id}>
+									<BackgroundImageBehindGrid id={`grid${job.job_id}`}
+															   light_background={parseInt(job.job_id) % 2 === 1}/>
+									<CareerCell {...job} />
+								</div>)
+							)
+						}
 					</InfoWrapper>
 				</BackgroundImage>
 				<ButtonWrap
