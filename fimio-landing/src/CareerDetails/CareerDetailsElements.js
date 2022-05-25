@@ -19,8 +19,6 @@ export const ContentWrapper = styled.div`
 `
 
 export const BackIcon = styled.img`
-    margin-top: 40px;
-    margin-bottom: 40px;
     max-height: 40px;
     cursor: pointer;
     transform: rotate(90deg);

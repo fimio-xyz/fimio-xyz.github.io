@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const CareerContainer = styled.div`
-    min-height: 85vh;
+    margin-bottom: 15vh;
     display: flex;
     flex-direction: column;
 `
