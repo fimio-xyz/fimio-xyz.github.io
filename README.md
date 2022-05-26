@@ -26,3 +26,12 @@ Helpful links:
 ## Deployment
 
 1. Run `npm deploy` will bundle and push latest code from your local main branch to the remote Github repo on the gh-pages branch. Changes should reflect in a few minutes.
+
+## Cloudflare
+Cloudflare provides both our nameserver and free self-signed SSL certificate to certify the security of the Fimio site. 
+
+By going to GoDaddy under "DNS Management," you can see that the nameservers are no longer the default GoDaddy nameservers, but the Cloudflare nameservers.
+<img width="1215" alt="Screen Shot 2022-05-26 at 2 00 24 PM" src="https://user-images.githubusercontent.com/12959959/170579789-50a560b8-e320-417a-9b1a-5fdf015b9597.png">
+
+Once logged into Cloudflare, you can see under the "SSL/TLS" tab that we're set to "Full" SSL/TLS Encryption mode. This means that we have not purchased a third party SSL certificate, and we are verifying the legitimacy of the site ourselves. This does not pose a security risk to us as this site does not handle sensitive data. 
+<img width="1216" alt="Screen Shot 2022-05-26 at 2 00 58 PM" src="https://user-images.githubusercontent.com/12959959/170579952-9d364e57-0769-4308-a90d-15e9f1381c38.png">
